@@ -1,3 +1,11 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?auto=format&h=200);
+}
+
 header ul {
     margin: 0;
     padding: 0;
@@ -8,4 +16,73 @@ header li {
     padding: 10px;
     background-color: #ccc;
     color: blue;
+}
+
+span {
+    font-size: 20px;
+}
+
+#price {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#button {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.div {
+    line-height: 25px;
+}
+
+.div .title-1 {
+    color: #cf1d1d83;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div .text-1 {
+
+}
+
+.div .text-2 {
+    font-weight: bold;
+}
+
+.div .text-3 {
+    font-style: italic;
+}
+
+.div-2 {
+    text-align: right;
+}
+
+.div .text-1 {
+
+}
+
+.div .text-2 {
+    font-weight: bold;
+}
+
+.article-img {
+    height: 600px;
+    width: 600px;
+    background-color: green;
+    background-size: cover;
+    background-image: url(https://img.nhandan.com.vn/Files/Images/2020/07/26/nhat_cay-1595747664059.jpg);
+}
+
+.article-img .caption {
+    color: #ccc;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 30px;
 }
