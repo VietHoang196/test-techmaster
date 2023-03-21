@@ -86,3 +86,86 @@ span {
     background-color: rgba(0, 0, 0, 0.3);
     line-height: 30px;
 }
+
+.box {
+    background-color: green;
+}
+
+.box-to-box {
+    display: inline-flex;
+}
+
+.box-1 {
+    padding: 0 64px;
+    border-style: solid;
+    border-color: green;
+    margin-right: 36px;
+    height: fit-content;
+}
+
+.box-2 {
+    padding: 36px 24px;
+    border-style: solid;
+    border-color: red;
+}
+
+.box-3 {
+    border-style: solid;
+    border-color: blue;
+    text-align: 24px;
+    width: 480px;
+    margin-top: 48px;
+}
+
+.percent-wrapper-1 {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #000;
+}
+
+.percent-bar-1 {
+    background-color: aqua;
+    width: 80%;
+}
+
+.percent-wrapper-2 {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #000;
+}
+
+.percent-bar-2 {
+    background-color: aqua;
+    width: 75%;
+}
+
+.percent-wrapper-3 {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #000;
+}
+
+.percent-bar-3 {
+    background-color: aqua;
+    width: 60%;
+}
+
+.percent-wrapper-4 {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #000;
+}
+
+.percent-bar-4 {
+    background-color: aqua;
+    width: 10%;
+}
+
+.name {
+    display: inline-block;
+    width: 60px;
+}
+
+.study-list li{
+    padding: 10px 10px 0 0;
+}
